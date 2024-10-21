@@ -1,0 +1,38 @@
+# Ignore Python bytecode
+*.pyc
+*.pyo
+*.pyd
+__pycache__/
+
+# Ignore Virtual Environment
+venv/
+env/
+ENV/
+.venv/
+.env/
+
+# Ignore settings specific to your environment
+.env
+
+# Ignore Django migration files
+*/migrations/*
+
+# Ignore SQLite database files
+*.sqlite3
+
+# Ignore media uploads
+media/
+
+# Ignore static files
+staticfiles/
+
+# Ignore local configuration
+local_settings.py
+
+# Ignore Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Ignore system files
+.DS_Store
+Thumbs.db
+
